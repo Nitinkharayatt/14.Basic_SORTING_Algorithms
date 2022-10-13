@@ -4,7 +4,7 @@
      public static void bubblesort(int num[]) {
          int n=num.length;
 
-         for (int i = 0; i <=n-2 ; i++) {  // 0 to 3 [ 0,1,2,3 ]
+         for (int i = 0; i <=n-2 ; i++) {     // 0 to 3 [ 0,1,2,3 ]
             for (int j = 0; j <= n-2-i ; j++) {
                 if (num[j] > num[j + 1]) {
                     // Swap
